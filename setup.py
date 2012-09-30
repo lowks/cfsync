@@ -9,4 +9,7 @@ setup(
     packages=['cfsync',],
     license='TBD',
     long_description=open('README.txt').read(),
+    install_requires=[
+	            "python-cloudfiles >= 1.1.10"
+    ]
 )
