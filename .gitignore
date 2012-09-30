@@ -1,0 +1,10 @@
+*.pyc
+*.wpr
+*~
+build
+MANIFEST
+dist
+cfsync.egg-info
+.env
+.coverage
+cover/
