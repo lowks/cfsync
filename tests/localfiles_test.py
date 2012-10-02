@@ -20,10 +20,10 @@ class SyncTest(unittest.TestCase):
         Check that that the file tree is walked
         """
         results = [
-        'a.1', 'b.1', 'c.1',
-        'sub1/a.file',
-        'sub2/a.2', 'sub2/b.2', 'sub2/c.2',
-        'sub1/sub3/a.3', 'sub1/sub3/b.3', 'sub1/sub3/c.3', 'sub1/sub3/d.3'
+        './a.1', './b.1', './c.1',
+        './sub1/a.file',
+        './sub2/a.2', './sub2/b.2', './sub2/c.2',
+        './sub1/sub3/a.3', './sub1/sub3/b.3', './sub1/sub3/c.3', './sub1/sub3/d.3'
         ]
         self.assertEqual(self.CFSync.list_files('.'), results)
 
