@@ -29,7 +29,7 @@ class Sync(object):
       try:
         etag = obj.etag
         logging.debug("Checking md5sum of " + name)
-        checksum = md5sum.md5sum(os.path.join(folder, local_file))
+        checksum = md5sum.md5sum(local_file)
         logging.debug("Etag: " + etag)
         logging.debug("MD5SUM: " + checksum)
         if etag == checksum:
