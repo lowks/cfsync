@@ -4,6 +4,7 @@ setup(
     author='Max Lincoln',
     author_email='max@devopsy.com',
     url='https://github.com/maxlinc/cfsync',
+    description='cfsync',
     name='cfsync',
     version='0.1dev',
     packages=['cfsync',],
